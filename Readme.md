@@ -28,7 +28,11 @@ This project is a web scraper that extracts batting statistics from Cricbuzz for
 
 5. **Frontend Development using Streamlit**  
    - A Streamlit dashboard is built for real-time interaction.  
-   - Users can explore statistics, based on their query.  
+   - Users can explore statistics, based on their query.
+  
+## Other Approach:
+
+We also implemented the solution using a RAG approach, but due to accuracy issues, we opted for an alternative method. However, we used the SBERT model for embedding generation, FAISS for efficient storage and retrieval, and Google's LLM for processing the query.
 
 ## Installation & Usage  
 
